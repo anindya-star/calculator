@@ -1,2 +1,28 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// 25.61.0295 Azzura Nindya Putri
+
+int a = 10, b = 11;
+
+static int Penjumlahan(int a, int b)
+{
+    return a + b;
+}
+
+static int Pengurangan(int a, int b)
+{
+    return a - b;
+}
+
+static int Perkalian(int a, int b)
+{
+    return a*b;
+}
+
+static int Pembagian(int a, int b)
+{
+    return a/b;
+}
+
+Console.WriteLine(a," + " b, " = " +Penjumlahan(a,b));
+Console.WriteLine(a," - " b, " = " +Pengurangan(a,b));
+Console.WriteLine(a," * " b, " = " +Perkalian(a,b));
+Console.WriteLine(a," / " b, " = " +Pembagian(a,b));
